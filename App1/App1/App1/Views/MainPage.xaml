@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.View.MainPage">
+
+    <StackLayout VerticalOptions="Center">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms teste!" 
+           HorizontalOptions="Center"/>
+
+        <Button  BorderRadius="20" Text="Page 1" BackgroundColor="Aqua" BorderColor="Black" Clicked="Button_Clicked_1"/>
+        <Button  BorderRadius="20" Text="Clique Aqui" BackgroundColor="Aqua" BorderColor="Black" Clicked="Button_Clicked"/>
+        <Entry  x:Name="labelTitle"></Entry>
+        <!--<ListView x:Name="TesteList">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Vinicius</x:String>
+                    <x:String>TEste</x:String>
+                    <x:String>Avanade</x:String>
+                    <x:String>Accenture</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>-->
+    </StackLayout>
+
+</ContentPage>

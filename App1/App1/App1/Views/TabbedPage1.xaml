@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.View.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Tab 1" BackgroundColor="Azure">
+        <Button  BorderRadius="20" Text="Pagina Inicial" BackgroundColor="red" BorderColor="Black" Clicked="Button_Clicked_1"/>
+
+    </ContentPage>
+  <ContentPage Title="Tab 2"  BackgroundColor="Brown"/>
+    <ContentPage Title="Tab 3"></ContentPage>
+    
+    
+</TabbedPage>
